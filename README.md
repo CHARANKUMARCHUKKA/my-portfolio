@@ -1,32 +1,52 @@
-# React + TypeScript + Vite
+# My Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Welcome to my personal portfolio repository! This project showcases my skills, projects, and professional experience.
 
-Currently, two official plugins are available:
+## 🚀 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This portfolio is built using modern web technologies:
 
-## React Compiler
+- **React** - UI Framework
+- **Vite** - Fast frontend tooling and bundler
+- **TypeScript** - For type safety and better developer experience
+- **Tailwind CSS** - For rapid and responsive styling
+- **Framer Motion & GSAP** - For smooth, highly-customizable animations
+- **Lucide React & React Icons** - For beautiful iconography
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Getting Started
 
-## Expanding the Oxlint configuration
+To run this project locally on your machine, follow these steps:
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+### Prerequisites
+Make sure you have [Node.js](https://nodejs.org/) installed on your computer.
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
-```
+### Installation
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+1. Clone the repository (or download the zip):
+   ```bash
+   git clone https://github.com/CHARANKUMARCHUKKA/my-portfolio.git
+   ```
+2. Navigate into the project directory (adjust the folder name if necessary):
+   ```bash
+   cd my-portfolio
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
+5. Open your browser and visit `http://localhost:5173` to view the project!
+
+## 📦 Scripts
+
+- `npm run dev` - Starts the local development server.
+- `npm run build` - Builds the project for production.
+- `npm run preview` - Previews the production build locally.
+- `npm run lint` - Runs the linter to check for code quality.
+
+## 👤 About
+
+Created by **Charan Kumar Chukka**.
